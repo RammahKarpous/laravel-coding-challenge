@@ -4,10 +4,15 @@ namespace Tests\Feature;
 
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Foundation\Testing\WithFaker;
+use Illuminate\Foundation\Testing\WithoutMiddleware;
 use Tests\TestCase;
 
 class getFiveQuotesTest extends TestCase
 {
+
+    // use WithoutMiddleware;
+    // use RefreshDatabase;
+
     public function test_home_page_is_reachable()
     {
         $response = $this->get('/');
@@ -23,6 +28,6 @@ class getFiveQuotesTest extends TestCase
     public function test_quotes_are_being_fetched()
     {
         $response = $this->get('/dashboard');
-        
+
     }
 }
