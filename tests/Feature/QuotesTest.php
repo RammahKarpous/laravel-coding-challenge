@@ -8,7 +8,7 @@ use Tests\TestCase;
 class getFiveQuotesTest extends TestCase
 {
 
-    public function test_use_has_to_be_authenticated_to_enter_the_dashboard()
+    public function test_user_has_to_be_authenticated_to_enter_the_dashboard()
     {
         $response = $this->get('/dashboard');
         $response->assertStatus(302);
