@@ -1,5 +1,4 @@
-Start time: 14:00
-Finish time: 16:38
+Start time: 14:00 - Finish time: 16:38
 
 ## Project set up
 
@@ -15,7 +14,7 @@ Finish time: 16:38
 
 ## View quotes
 1. Navigate to '/login' route
-2. Email address is "rammah@email.com" and password us "password"
+2. Email address is "rammah@email.com" and password is "password"
 
 ## Testing
 
