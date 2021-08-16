@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [PagesController::class, 'index'])->middleware('auth');
+Route::get('/', [PagesController::class, 'index']);
 Route::get('/dashboard', [PagesController::class, 'dashboard'])->middleware(['auth'])->name('dashboard');
 Route::post('/dashboard', [PagesController::class, 'dashboard'])->middleware(['auth'])->name('dashboard');
 
