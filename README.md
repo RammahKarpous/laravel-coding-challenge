@@ -1,5 +1,4 @@
-Start time: 14:00
-Finish time: 16:38
+Start time: 14:00 - Finish time: 16:38
 
 ## Project set up
 
