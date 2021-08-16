@@ -18,4 +18,17 @@ class QuotesController extends Controller
 
         return $quotes;
     }
+
+    public function login()
+    {
+        $credentials = [
+            'email' => 'rammah@email.com',
+            'password' => 'password'
+        ];
+
+
+        $token = auth()->attempt($credentials);
+
+        return $token;
+    }
 }

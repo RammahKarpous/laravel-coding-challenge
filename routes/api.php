@@ -20,3 +20,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::get('/get-quotes', [QuotesController::class, 'quotes'])->middleware('auth');
+Route::get('/loging-in', [QuotesController::class, 'login']);
