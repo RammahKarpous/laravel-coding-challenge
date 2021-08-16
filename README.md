@@ -1,3 +1,5 @@
+Start time: 14:00
+
 ## Project set up
 
 1. Extract folder
