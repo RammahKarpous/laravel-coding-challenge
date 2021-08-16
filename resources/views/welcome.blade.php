@@ -13,10 +13,6 @@
         </style>
     </head>
     <body class="antialiased">
-        @for ($i = 0; $i < count($quotes); $i++)
-            <p>{{ $quotes[$i]['quote'] }}</p>
-        @endfor
-
-        <button type="reset">Refresh</button>
+        
     </body>
 </html>

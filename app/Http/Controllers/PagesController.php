@@ -20,7 +20,7 @@ class PagesController extends Controller
         ]);
     }
 
-    public function dashbard()
+    public function dashboard()
     {
         $quotes = [];
 
