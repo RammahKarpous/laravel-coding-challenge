@@ -19,4 +19,17 @@ class PagesController extends Controller
             'quotes' => $quotes
         ]);
     }
+
+    public function dashbard()
+    {
+        $quotes = [];
+
+        for ($i=0; $i < 5; $i++) { 
+            array_push($quotes, Http::get('https://api.kanye.rest')->json());
+        }
+
+        return view('dashboard', [
+            'quotes' => $quotes
+        ]);
+    }
 }
