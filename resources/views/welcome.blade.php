@@ -13,6 +13,6 @@
         </style>
     </head>
     <body class="antialiased">
-        <a href="{{ route('login') }}">Sign in to see the Kanye West quotes</a>
+        <a href="{{ route('login') }}">Sign in to see the Kanye West quotessssss</a>
     </body>
 </html>
